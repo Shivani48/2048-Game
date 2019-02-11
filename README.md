@@ -13,3 +13,4 @@ Rules of the game:
 
 Objective of the project: Become familiar with handling arrays and matrices. 
   
+Monday - Layout 
