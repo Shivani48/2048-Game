@@ -2,5 +2,6 @@
     <string name="app_name">2048 game</string>
     <string name="logo">Game logo</string>
     <string name="score">Score</string>
+    <string name="SCORE_value">0</string>
 
 </resources>
