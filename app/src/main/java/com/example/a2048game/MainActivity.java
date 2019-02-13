@@ -79,12 +79,12 @@ public class MainActivity extends AppCompatActivity {
             mWebView.restoreState(savedInstanceState);
         } else {
             // Load webview with current Locale language
-            mWebView.loadUrl("file:///android_asset/2048/index.html");
+            mWebView.loadUrl("file:///android_asset/index.html");
         }
 
         Toast.makeText(getApplication(), R.string.toggle_fullscreen, Toast.LENGTH_SHORT).show();
         // Set fullscreen toggle on webview LongClick
-        mWebView.setOnTouchListener((v, event) -> {
+     /*   mWebView.setOnTouchListener((v, event) -> {
             // Implement a long touch action by comparing
             // time between action up and action down
             long currentTime = System.currentTimeMillis();
@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
             // by the webview as well
             return false;
         });
-
+*/
         pressBackToast = Toast.makeText(getApplicationContext(), R.string.press_back_again_to_exit,
                 Toast.LENGTH_SHORT);
     }
@@ -112,9 +112,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    protected void onSaveInstanceState(Bundle outState) {
-        mWebView.saveState(outState);
-    }
+
+  //  protected void onSaveInstanceState(Bundle outState) {
+     //   mWebView.saveState(outState);
+   // }
 
     /**
      * Saves the full screen setting in the SharedPreferences
