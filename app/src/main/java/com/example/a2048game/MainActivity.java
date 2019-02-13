@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         // Load webview with game
-        mWebView = findViewById(R.id.mainWebView);
+        mWebView = findViewById(R.id.myWebView);
         WebSettings settings = mWebView.getSettings();
         settings.setJavaScriptEnabled(true);
         settings.setDomStorageEnabled(true);
