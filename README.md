@@ -19,6 +19,8 @@ References:
   https://www.lovelycoding.org/2015/10/2048-android-game-project.html
   
 Bugs: 
+ The tiles stop dropping at one point.
+ 
   
   
 
