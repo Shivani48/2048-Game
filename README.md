@@ -12,5 +12,13 @@ Rules of the game:
   Remember while you merge two tiles all other tiles also move in the same direction.
 
 Objective of the project: Become familiar with handling arrays and matrices. 
+
+References: 
+  https://stackoverflow.com/questions/4325639/android-calling-javascript-functions-in-webview
+  https://github.com/uberspot/2048-android
+  https://www.lovelycoding.org/2015/10/2048-android-game-project.html
+  
+Bugs: 
+  
   
 
