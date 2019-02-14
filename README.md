@@ -19,6 +19,7 @@ References:
   https://www.lovelycoding.org/2015/10/2048-android-game-project.html
   
 Bugs: 
+ Sometimes a 4 tile drops along with a 2 tile at the start of the game.
  The tiles stop dropping at one point.
  
   
